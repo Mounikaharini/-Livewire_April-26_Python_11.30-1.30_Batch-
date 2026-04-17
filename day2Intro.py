@@ -95,5 +95,63 @@ a**=2
 print(a)
 
 
+#comparision operator
+a = 10
+b = 20
+print(a==b)
+print(a!=b)
+print(a>b)
+print(a<b)
+print(10<=10)
+print(5>=5)
+
+#logical operator
+age = 18
+print(age>18 or age==18)
+
+age = 19
+salary = 25000
+print(age>=18 and salary>=25000)
+
+number = 10
+print(not number==10)
+
+and                             or                              not
+cond1	cond2	o/p		cond1	cond2	o/p		cond1	o/p
+									
+TRUE	TRUE	TRUE		TRUE	TRUE	TRUE		TRUE	FALSE
+FALSE	TRUE	FALSE		FALSE	TRUE	TRUE		FALSE	TRUE
+TRUE	FALSE	FALSE		TRUE	FALSE	TRUE			
+FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+
+print(36 & 85)
+print(36 | 85)
+print(85^36)
+print(36<<1)
+print(36>>2)
+print(~5)
+print(~(-5))
+#-(n+1) -> +ve -> -(5+1) -> -6
+#+(n-1) -> -ve -> +(5-1) ->  4
+
+#membership operator
+a = [1,2,3,4,5,6]
+print(2 in a)
+print(8 in a)
+
+print(8 not in a)
+print(2 not in a)
+
+
+#identity operator
+x = 10
+y = 10
+z = 20
+print(x is y)
+print(x is z)
+
+print(x is not z)
+print(x is not y)
+
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
