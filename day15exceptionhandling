@@ -1,0 +1,88 @@
+'''
+print("start")
+try:
+    a = 10
+    print(b)
+except NameError as n:
+    print("The variable is not defined")
+print("end")
+
+
+print("start")
+try:
+    print(12/0)   
+except ZeroDivisionError as z:
+    print("The Number is Not Divisible By Zero")    
+print("end")
+
+
+print("start")
+try:
+    x="hi"
+    print(x[2])  
+except IndexError as i:
+    print("No Element present in the index")   
+print("end")
+
+
+print("start")
+try:
+    x={1:"one",2:"two"}
+    print(x[3]) 
+except KeyError as k:
+    print("No Key present in the index")  
+print("end")
+
+
+print("start")
+try:
+    x=int(input("Enter a Number :"))
+    print(x)
+except ValueError as v:
+    print("Mismatch Datatype") 
+print("end")
+
+
+print("start")
+try:
+    x=int(input("Enter a Number :"))
+    print(x) 
+except Exception as e:
+    print("Mismatch Datatype")
+    
+print("end")
+'''
+print("start")
+try:
+    x=int(input("Enter a Number :"))
+    print(x) 
+except Exception as e:
+    print("Mismatch Datatype")
+finally:
+    print("hi")
+print("end")
+
+a=40
+assert a==4 ,"hi"
+print(a)
+
+m = ""
+if m=="mounika":
+    print("hi")
+else:
+    raise NameError("this is error")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
