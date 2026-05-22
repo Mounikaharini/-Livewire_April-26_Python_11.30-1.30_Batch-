@@ -1,0 +1,32 @@
+
+class course:
+    def python(self):
+        print("Duration - 60hrs")
+        print("Project Module : Tkinter")
+    def java(self):
+        print("Duration - 64hrs")
+        print("Project Module : Swing")
+    def wd(self):
+        print("Duration - 48hrs")
+        print("Project Module : Bootstrap")
+c = course()
+c.python()
+c.java()
+c.wd()
+
+class course:
+    def python(self,name):
+        print(f"Name : {name}")
+        print("Duration - 60hrs")
+        print("Project Module : Tkinter")
+    def java(self):
+        print("Duration - 64hrs")
+        print("Project Module : Swing")
+    def wd(self):
+        print("Duration - 48hrs")
+        print("Project Module : Bootstrap")
+c = course()
+name = "mounika"
+c.python(name)
+c.java()
+c.wd()
