@@ -1,0 +1,15 @@
+class customer:
+    def __init__(self):
+        self.name=""
+        self.pin=0
+        
+    def setData(self,name,pin):
+        self.name=name
+        self.pin=pin
+
+    def getData(self):
+        print(self.name)
+        print(self.pin)
+c = customer()
+c.setData("mounika",1234)
+c.getData()
