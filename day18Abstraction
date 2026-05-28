@@ -1,0 +1,42 @@
+'''
+from abc import ABC, abstractmethod
+class price(ABC):
+    @abstractmethod
+    def pricegrade1(self):
+        pass
+    @abstractmethod
+    def pricegrade2(self):
+        pass
+    @abstractmethod
+    def pricegrade3(self):
+        pass
+
+class Tomato(price):
+    def pricegrade1(self):
+        print("1kg - 60Rs")
+    def pricegrade2(self):
+        print("1kg - 45Rs")
+    def pricegrade3(self):
+        print("1kg - 30Rs")
+
+t = Tomato()
+t.pricegrade1()
+t.pricegrade2()
+t.pricegrade3()
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
