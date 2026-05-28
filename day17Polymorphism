@@ -1,0 +1,73 @@
+#function overloading
+'''
+class calc:
+    def add(a=0,b=0,c=0,e=0,f=0):
+        print(a+b+c+e+f)
+
+c = calc
+c.add(1,2,3,4,5)
+c.add(1,2,3,4)
+c.add(1,2,3)
+c.add(1,2)
+c.add(1)
+
+#operator overloading
+print("hi"*3)
+print(5*6)
+'''
+
+#function overriding
+
+class template:
+    def name():
+        print("-----------------------------------------")
+        print("Fill the name")
+        print("-----------------------------------------")
+    def contact():
+        print()
+        print("""Phone: [Your Number]
+Email: [Your Email]
+Location (City, State)
+Linkedin: [Your Profile]
+""")
+
+    def objective():
+        print()
+        print("Motivated and detail-oriented [Your Profession/Graduate] seeking a position in [Industry/Job Role] to apply skills and contribute to organizational growth")
+
+    def skills():
+        print()
+        print("Technical: [MS Office, Excel, Programming Languages, Tools]\nSoft Skills: [Communication, Problem-Solving, Teamwork]")
+
+class Mounika(template):
+    def name():
+        print("-----------------------------------------")
+        print("Mounika Harini G")
+        print("-----------------------------------------")
+
+    def contact():
+        print()
+        print("""Phone: +91 9384542020
+Email: livewiremounika@gmail.com
+Location (Salem, Tamilnadu)
+Github : www.github.com/Mounikaharini
+""")
+
+t = Mounika
+t.name()
+t.contact()
+t.objective()
+t.skills()
+
+
+
+
+
+
+
+
+
+
+
+
+
